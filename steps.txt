@@ -1,0 +1,8 @@
+1) Deploy the LayerZero.sol file on the first chain (goreli) with the layerZero Endpoint contract Address as the constructor
+2) change the network to second chain (sepolia) and deplo the same contract with the LayerZero endpoint contract Address of this chain
+3) copy the address of the second contract we just deployed and pass it as a parameter to the first contract's "trustAddress" method and execute that method
+4) copy address of the first contract and pass it as a paramter to the "trustAddress" method in the second contract
+5) go to the first contract and execute a method "send" and pass some native tokens (12345678gwei) 
+
+the message sending will take several minutes
+switch the chain according to which contract you are intracting with
