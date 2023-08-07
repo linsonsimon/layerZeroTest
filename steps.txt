@@ -3,6 +3,7 @@
 3) copy the address of the second contract we just deployed and pass it as a parameter to the first contract's "trustAddress" method and execute that method
 4) copy address of the first contract and pass it as a paramter to the "trustAddress" method in the second contract
 5) go to the first contract and execute a method "send" and pass some native tokens (12345678gwei) 
+6) to read the message go to the second contract and click on the method data
 
 the message sending will take several minutes
 switch the chain according to which contract you are intracting with
